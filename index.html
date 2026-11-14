@@ -197,7 +197,7 @@ details p { margin: 8px 0 0; }
       <div id="revealView" hidden>
         <div class="label">This weekend's sub-theme</div>
         <p class="subtheme pop" id="subtheme"></p>
-        <p class="subtheme-note" id="subnote">Build a holiday game that also fits this twist. Projects are due Sunday at 10:00 AM.</p>
+        <p class="subtheme-note" id="subnote">Build a holiday game that also involves winter sports: skiing, snowboarding, hockey, figure skating, curling, bobsledding, or your own creative take. Projects are due Sunday at 10:00 AM.</p>
       </div>
     </div>
   </div>
@@ -210,7 +210,7 @@ details p { margin: 8px 0 0; }
     <a href="#prepare">Before you arrive</a>
     <a href="#videos">Videos</a>
     <a href="#help">Get help</a>
-    <a href="#resources">Resources</a>
+    <a href="#resources">Slides + resources</a>
     <a href="#submit">How to submit</a>
     <a href="#judging">Judging</a>
     <a href="#rules">Rules</a>
@@ -284,7 +284,7 @@ details p { margin: 8px 0 0; }
         <li>Make a free <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a> account (sign in with Google). Your game will live here.</li>
         <li>Open <a href="https://stitch.withgoogle.com" target="_blank" rel="noopener">Google Stitch</a> and sign in with Google.</li>
         <li>Using Godot or pygame instead? Make a free <a href="https://itch.io" target="_blank" rel="noopener">itch.io</a> account to host your web build.</li>
-        <li>Watch one or two of the short videos below.</li>
+        <li>Watch one or two of the short videos below, and look through the <a href="#resources">workshop slides</a>.</li>
         <li>Bring your laptop and charger if you have them, plus headphones and a water bottle.</li>
       </ul>
     </section>
@@ -350,7 +350,13 @@ details p { margin: 8px 0 0; }
 
     <section id="resources">
       <h2>Resources</h2>
-      <p class="lede">Tools you'll use this weekend, plus free art and sound.</p>
+      <p class="lede">Friday's workshop slides, the tools you'll use this weekend, and free art and sound.</p>
+      <h3>Workshop slides</h3>
+      <div class="res" style="margin-bottom:18px">
+        <a href="https://docs.google.com/presentation/d/1da4LicgFvCG5M5Fdau6ub92CBgdy5UafLKUIXknyKJY/edit?usp=sharing" target="_blank" rel="noopener"><b>Workshop 1: Vibe coding a game with BoodleBox</b><small>Slides with every prompt from Friday's game workshop.</small></a>
+        <a href="https://docs.google.com/presentation/d/171bJ_T-48l5mFwmcgmuIASlFTVKEUPAB/edit?usp=sharing&amp;ouid=100685158491115165226&amp;rtpof=true&amp;sd=true" target="_blank" rel="noopener"><b>Workshop 2: Building a website with Google Stitch</b><small>Slides with every prompt from Friday's website workshop.</small></a>
+      </div>
+      <h3>Tools</h3>
       <div class="res">
         <a href="https://box.boodle.ai" target="_blank" rel="noopener"><b>BoodleBox</b><small>Your AI coding helper. Log in with your Conn account.</small></a>
         <a href="https://codepen.io" target="_blank" rel="noopener"><b>CodePen</b><small>Paste your code, run it, share a link.</small></a>
@@ -503,7 +509,7 @@ details p { margin: 8px 0 0; }
   var REVEAL = new Date("2026-11-13T19:30:00-05:00").getTime();
   // ===== EDIT THIS AT 7:30 PM ON FRIDAY =====
   // Put the sub-theme between the quotes, e.g. "Only one button". Leave it empty until the reveal.
-  var SUBTHEME = "";
+  var SUBTHEME = "Winter Sports";
   // ==========================================
   var REVEALED_TEXT_READY = SUBTHEME.trim() !== "";
   var cv = document.getElementById("countView"), rv = document.getElementById("revealView");
